@@ -1,0 +1,98 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+a{
+  text-decoration:none;
+  color:#000
+}
+ul{
+  list-style:none;
+}
+.parent{
+  width:1210px;
+  margin:0 auto;
+}
+.none{
+  display:none
+}
+/*————————导航——————————*/
+.toolbar{
+  background:#d8d8d8;
+  min-width:1210px;
+}
+.toolbar>div{
+  width:1210px;
+  height:35px;
+  margin:0 auto;
+  clear:both;
+}
+.daohang a{
+  color:#5e5e5e;
+  padding-left:20px;
+  line-height:35px
+}
+.login a{
+  color:#5e5e5e;
+  padding-right:20px;
+  line-height:35px;
+}
+.daohang{
+  float:left;
+  /* margin:7px 0 0 200px; */
+}
+.login{
+  float:right;
+  /* margin:7px 200px 0 0; */
+}
+.daohang a:hover{
+  color:red;
+}
+.login a:hover{
+  color:red;
+}
+
+
+.index-header{
+  display:flex;
+  flex-direction:row;
+  width:1210px;
+  margin:0 auto
+}
+.logo{
+  width:190px;
+  height:90px;
+}
+.gif{
+  height:100px;
+  width:160px;
+}
+.index-header li{
+  float:left;
+}
+.index-header li a{
+  color:#5e5e5e;
+}
+.shousuo{
+  margin:20px 0 0 20px;
+}
+.ssk input{
+  border:2px solid orange;
+  width:420px;
+  height:40px;
+}
+.ssk button{
+  border:0px solid orange;
+  background: orange;
+  width:120px;
+  height:40px;
+}
+.ssk button a{
+  font-size:20px;
+  font-weight:900;
+  color:white;
+}
+.ssk{
+  display:flex;
+}

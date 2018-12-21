@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/sign.css">
+  <script src="js/jquery-1.11.3.js"></script>
+ </head>
+ <body>
+    <div class="header">
+			<a href="index.html"><img src="img/logo.png" alt=""></a>
+			<div>欢迎注册</div>
+			<a href="login.html">我已经注册，马上登录></a>
+		</div>
+		<div class="main">
+			<form class="box">
+				<div>
+					<div>注册领<em>199</em>元大礼包</div>
+				</div>
+				<div>
+					<span>手机号码</span>	
+					<input type="text" placeholder="请输入手机号">
+				</div>
+				<div id="phone_err" class="pon_err err" style="display:none">格式不正确，请您输入正确的手机号。</div>
+				<div>
+					<span>手机验证码</span>
+					<input type="text" placeholder="请输入手机验证码">
+					<a href="#">获取短信验证码</a>
+				</div>
+				<div id="num_err" class="num_err err" style="display:none">请输入6位数字验证码。</div>
+				<div>
+					<span>设置密码</span>
+					<input type="password" placeholder="请输入密码">
+				</div>
+				<div>
+					<div id="pwd_err" class="pwd err" style="display:none">请输入6-20位密码！</div>
+					<div id="pwd_sug" class="pwd err" style="display:none">6-20个字符，由字母，数字和符号的两种以上组合。</div>
+				</div>
+				<a href="javascript:">提交注册</a>
+				<div><a href="#">企业用户注册></a></div>
+			</form>
+		</div>
+		<footer id="footer"></footer>
+ 	</body>
+	 <script src="js/footer.js"></script>
+	 <script src="js/sign.js"></script>
+</html>

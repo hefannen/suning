@@ -1,0 +1,164 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+a{
+  text-decoration:none;
+  color:#000
+}
+/* ——————header—————— */
+.header{
+  width:970px;
+  height:100px;
+  margin:0 auto;
+}
+.header>img{
+  width:189px;
+  height:100px;
+  float:left;
+}
+.header>div{
+  width:781px;
+  height:31px;
+  float:left;
+}
+.header>input{
+  background:#fefff1;
+  border:1px solid #fecd66;
+  width:700px;
+  color:#333;
+  line-height:16px;
+  height:26px;
+  text-indent:5px;
+  float:left;
+  margin-left:20px;
+}
+/* ——————login—————— */
+.login{
+  background:url("../img/bg.jpg") center no-repeat;
+  background-size:cover;
+  height:570px;
+  position:relative;
+  min-width:1210px;
+}
+.login>div:first-child{
+  height:50px;
+  width:360px;
+  position:absolute;
+  right:467px;
+  top:50px;
+  background:white;
+}
+.login>div:first-child>a{
+  position: relative;
+  float: left;
+  height: 100%;
+  width: 50%;
+  text-decoration: none;
+  text-align: center;
+  
+  border-bottom:1px solid #eee;
+}
+.login>div:first-child>a>span{
+  display: block;
+  border-right: 1px solid #eee;
+  margin-top: 15px;
+}
+.login>div:first-child>a:last-child>span{
+  color:#f60;
+}
+.login>div:nth-child(2){
+  width:360px;
+  position:absolute;
+  right:467px;
+  top:100px;
+  background:white;
+}
+.login>div:nth-child(2)>form{
+  height:281px;
+  padding:0 24px;
+}
+.unameMiss{
+  width:220px;
+  position:absolute;
+  left:109px;
+  top:12px;
+  background:#fff0f0;
+  border:1px solid #ff3c3c;
+  font-size:12px;
+  display:none;
+}
+.upwdMiss{
+  width:220px;
+  position:absolute;
+  left:109px;
+  top:144px;
+  background:#fff0f0;
+  border:1px solid #ff3c3c;
+  font-size:12px;
+  display:none;
+}
+.show{
+  display:block
+}
+.login>div:nth-child(2)>form>div:first-child>input{
+  width:220px;
+  height:36px;
+  text-indent:10px;
+  margin-top:40px;
+}
+.login>div:nth-child(2)>form>div:nth-child(2)>input{
+  width:220px;
+  height:36px;
+  text-indent:10px;
+  margin-top:20px;
+  margin-bottom:40px
+}
+.login>div:nth-child(2)>form>div:nth-child(3)>a{
+  line-height:35px;
+  font-size:10px;
+}
+.login>div:nth-child(2)>form>div:nth-child(3)>a:first-child{
+  float:left;
+}
+.login>div:nth-child(2)>form>div:nth-child(3)>a:first-child:hover{
+  color:#F60;
+}
+.login>div:nth-child(2)>form>div:nth-child(3)>a:last-child{
+  float:right;
+}
+.login>div:nth-child(2)>form>div:nth-child(3)>a:last-child:hover{
+  color:#F60;
+  text-decoration:underline;
+}
+.login>div:nth-child(2)>form>a{
+  display: block;
+  width: 310px;
+  line-height: 40px;
+  margin: 0 auto;
+  background: #f60;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  margin-top:40px;
+}
+.login>div:nth-child(3){
+  width:360px;
+  position:absolute;
+  right:467px;
+  top:381px;
+  background:white;
+  text-align:center;
+  padding-bottom:35px;
+}
+.login>div:nth-child(3)>a{
+  font-size:10px;
+}
+.login>div:nth-child(3)>a:hover{
+  color:#F60;
+  text-decoration:underline;
+}
+
